@@ -1012,9 +1012,10 @@ circular-json@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.3.1.tgz#be8b36aefccde8b3ca7aa2d6afc07a37242c0d2d"
 
-ckeditor@4.6.2:
-  version "4.6.2"
-  resolved "https://registry.yarnpkg.com/ckeditor/-/ckeditor-4.6.2.tgz#b1552b7a2f9537e165d7afd2d29d3d4959ff6bad"
+ckeditor@4.12.1:
+  version "4.12.1"
+  resolved "https://registry.yarnpkg.com/ckeditor/-/ckeditor-4.12.1.tgz#954a7b028dd611e44ba51cc7c2fe051cf1052186"
+  integrity sha512-pH2Su4oi0D4iN/3U8nUcwI7/lXHoOJi0aiN8e2zxnm4Ow5kq8eZP2ZGmpYyuqRyKZ2tHaU8+OyYi7laXcjiq9Q==
 
 clap@^1.0.9:
   version "1.1.3"
@@ -2800,9 +2801,10 @@ handlebars@^4.0.2, handlebars@^4.0.3:
   optionalDependencies:
     uglify-js "^2.6"
 
-handsontable@0.31.1:
+handsontable@^0.31.1:
   version "0.31.2"
   resolved "https://registry.yarnpkg.com/handsontable/-/handsontable-0.31.2.tgz#276c5208b6f679f0a0ae539a1806a85279943a0a"
+  integrity sha512-riP6jCNWQ0AVICG5IuTjXUuG77xY7Jkiw6sfqzGdl1P943CSr1NoFwjFgbc+Pnh/Qhc6HQRpP4qvp0MTLGSKJQ==
   dependencies:
     moment "^2.13.0"
     numbro "^1.8.0"
@@ -3471,6 +3473,7 @@ jade@~1.11.0:
     jstransformer "0.0.2"
     mkdirp "~0.5.0"
     transformers "2.1.0"
+    uglify-js "^2.4.19"
     void-elements "~2.0.1"
     with "~4.0.0"
 
